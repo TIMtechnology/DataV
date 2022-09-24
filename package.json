@@ -1,8 +1,8 @@
 {
-  "name": "@jiaminghi/data-view",
+  "name": "timkj-data-view",
   "version": "2.10.0",
-  "author": "JiaMing <743192023@qq.com>",
-  "description": "Vue Large screen data display component library",
+  "author": "timkj@qq.com",
+  "description": "DataV 定制版",
   "main": "lib/index.js",
   "repository": {
     "type": "git",

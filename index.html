@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- 引入src -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <!-- 引入src中的index.js -->
+    <script src="dist/datav.map.vue.js"></script>
+    <style>
+        html,
+        body,
+        #app {
+            width: 100%;
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .border-box-content {
+            color: rgb(66, 185, 131);
+            font-size: 40px;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <dv-scroll-board :config="config" style="width:500px;height:220px" />
+    </div>
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                config: {
+                    rowNum:3,
+                    data: [
+                        {
+                            title: '标题1',
+                            value: '内容1'
+                        },
+                        {
+                            title: '标题2',
+                            value: '内容2'
+                        },
+                        {
+                            title: '标题3',
+                            value: '内容3'
+                        },
+                        {
+                            title: '标题4',
+                            value: '内容4'
+                        },
+                        {
+                            title: '标题5',
+                            value: '内容5'
+                        },
+                        {
+                            title: '标题6',
+                            value: '内容6'
+                        },
+                        {
+                            title: '标题7',
+                            value: '内容7'
+                        },
+                        {
+                            title: '标题8',
+                            value: '内容8'
+                        },
+                        {
+                            title: '标题9',
+                            value: '内容9'
+                        },
+                        {
+                            title: '标题10',
+                            value: '内容10'
+                        },
+                        {
+                            title: '标题11',
+                            value: '内容11'
+                        },
+                        {
+                            title: '标题12',
+                            value: '内容12'
+                        },
+                        {
+                            title: '标题13',
+                            value: '内容13'
+                        },
+                        {
+                            title: '标题14',
+                            value: '内容14'
+                        },
+                        {
+                            title: '标题15',
+                            value: '内容15'
+                        },
+                        {
+                            title: '标题16',
+                            value: '内容16'
+                        },
+                        {
+                            title: '标题17',
+                            value: '内容17'
+                        },
+                        {
+                            title: '标题18',
+                            value: '内容18'
+                        },
+                        {
+                            title: '标题19',
+                            value: '内容19'
+                        },
+                        {
+                            title: '标题20',
+                            value: '内容20'
+                        },
+                        {
+                            title: '标题21',
+                            value: '内容21'
+                        },
+                        {
+                            title: '标题22',
+                            value: '内容22'
+                        },
+                        {
+                            title: '标题23',
+                            value: '内容23'
+                        },
+                        {
+                            title: '标题24',
+                            value: '内容24'
+                        },
+                        {
+                            title: '标题25',
+                            value: '内容25'
+                        },
+                        {
+                            title: '标题26',
+                            value: '内容26'
+                        },
+                        {
+                            title: '标题27',
+                            value: '内容27'
+                        },
+                        {
+                            title: '标题28',
+                            value: '内容28'
+                        },
+                        {
+                            title: '标题29',
+                            value: '内容29'
+                        },
+                        {
+                            title: '标题30',
+                            value: '内容30'
+                        }
+                    ],
+                },
+            }
+
+        })
+    </script>
+</body>
+
+</html>
